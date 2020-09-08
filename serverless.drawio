@@ -1,6 +1,6 @@
-<mxfile host="37e5a297-e03c-450d-9718-0c2d4877cf17" modified="2020-09-08T05:07:25.883Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="VIWvq6fWkoly3m2bAUTV" version="13.1.3">
+<mxfile host="37e5a297-e03c-450d-9718-0c2d4877cf17" modified="2020-09-08T07:35:44.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="Du6LvwwgiAeyCJRiTJIO" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="979" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1806" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -114,18 +114,36 @@
                 </mxCell>
                 <mxCell id="53" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="44">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="190" y="610" as="sourcePoint"/>
+                        <mxPoint x="120" y="630" as="sourcePoint"/>
                         <mxPoint x="540" y="460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="54" value="SecretManager&lt;br&gt;の情報を引き受けるロール&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="140" y="620" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="40" y="641" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1" target="5">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="280" y="400" as="sourcePoint"/>
                         <mxPoint x="410" y="430" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=mxgraph.signs.tech.computer;html=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="383" width="98" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="426" as="sourcePoint"/>
+                        <mxPoint x="197" y="426" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="279" as="sourcePoint"/>
+                        <mxPoint x="430" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="LambdaをVPCにおくのでENIを&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="270" width="40" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
