@@ -1,6 +1,6 @@
-<mxfile host="37e5a297-e03c-450d-9718-0c2d4877cf17" modified="2020-09-08T16:31:07.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="dNjPFQSOHbBq2xPxS4zg" version="13.1.3">
+<mxfile host="37e5a297-e03c-450d-9718-0c2d4877cf17" modified="2020-09-09T09:19:42.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="sKedXZSkbmE-5_KiJYZG" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="2274" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2159" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -91,9 +91,9 @@
                 <mxCell id="44" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C7131F;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="1">
                     <mxGeometry x="360" y="458.56" width="38" height="21.44" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2">
+                <mxCell id="46" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="72" target="2">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="400" y="360" as="sourcePoint"/>
+                        <mxPoint x="512.5" y="422.51574803149606" as="sourcePoint"/>
                         <mxPoint x="540" y="380" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
@@ -142,8 +142,8 @@
                         <mxPoint x="430" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="LambdaをVPCにおくのでENIを&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="270" width="40" height="20" as="geometry"/>
+                <mxCell id="66" value="・LambdaをVPCにおくのでENIロール&lt;br&gt;・CloudWatchへのログの書き込みロール" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="224.28" width="140" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
                     <mxGeometry x="490" y="279.5" width="76.5" height="93" as="geometry"/>
@@ -167,6 +167,18 @@
                 </mxCell>
                 <mxCell id="70" value="負荷テスト&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="349.5" y="-70" width="94" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="309.5" width="62.5" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="360" as="sourcePoint"/>
+                        <mxPoint x="450" y="398.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="427.5" y="372.5" width="62.5" height="63" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

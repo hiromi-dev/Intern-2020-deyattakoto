@@ -1,6 +1,6 @@
-<mxfile host="5c779873-086a-4e2d-911a-b6384c9d60f8" modified="2020-09-09T06:33:41.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="IInEXNzSdQ_Vi6lamRpP" version="13.1.3" pages="2">
+<mxfile host="1351e9de-2890-4323-88ea-830789c63034" modified="2020-09-09T09:17:33.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="zkzVlok_BtDg4KBDQeee" version="13.1.3" pages="2">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="1909" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1667" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -127,22 +127,31 @@
                 <mxCell id="21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="670" y="524" width="76.5" height="93" as="geometry"/>
                 </mxCell>
+                <mxCell id="22" value="・各種ログ&lt;br&gt;・tf.stateファイル" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="658.25" y="469.38" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="460" as="sourcePoint"/>
+                        <mxPoint x="360" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="D1blEx4J4izxuuB9pckA" name="ページ2">
-        &#xa;        &#xa;        &#xa;&#xa;&#xa;
+        &#xa;        &#xa;        &#xa;        &#xa;&#xa;&#xa;&#xa;
         <mxGraphModel dx="892" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            &#xa;            &#xa;            &#xa;&#xa;&#xa;
+            &#xa;            &#xa;            &#xa;            &#xa;&#xa;&#xa;&#xa;
             <root>
-                &#xa;                &#xa;                &#xa;&#xa;&#xa;
+                &#xa;                &#xa;                &#xa;                &#xa;&#xa;&#xa;&#xa;
                 <mxCell id="CPnGD3Hd60haovpFMTRF-0"/>
-                &#xa;                &#xa;                &#xa;&#xa;&#xa;
+                &#xa;                &#xa;                &#xa;                &#xa;&#xa;&#xa;&#xa;
                 <mxCell id="CPnGD3Hd60haovpFMTRF-1" parent="CPnGD3Hd60haovpFMTRF-0"/>
-                &#xa;                &#xa;                &#xa;&#xa;&#xa;
+                &#xa;                &#xa;                &#xa;                &#xa;&#xa;&#xa;&#xa;
             </root>
-            &#xa;            &#xa;            &#xa;&#xa;&#xa;
+            &#xa;            &#xa;            &#xa;            &#xa;&#xa;&#xa;&#xa;
         </mxGraphModel>
-        &#xa;        &#xa;        &#xa;&#xa;&#xa;
+        &#xa;        &#xa;        &#xa;        &#xa;&#xa;&#xa;&#xa;
     </diagram>
 </mxfile>
